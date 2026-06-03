@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_ShockwaveSpriteScreen
-  m_Shader: {fileID: -6465566751694194690, guid: 0154663e8b20ddb418c1a635071c721a, type: 3}
+  m_Name: Shader Graphs_Tiling Texture Anim
+  m_Shader: {fileID: -6465566751694194690, guid: 01d0b259ea2e6f44a9ad6bbe53e74e73, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -18,16 +18,11 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _CameraSortingLayerTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -46,19 +41,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Animated: 1
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _Size: 0.5
-    - _Strength: -0.05
-    - _WaveValue: 0.096
-    - _XSizeRatio: 1.7777
+    - _TileMultiplier: 1
+    - _TimeManipulator: 0.01
     m_Colors:
     - White: {r: 1, g: 1, b: 1, a: 1}
-    - _RingSpawnPos: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Offset: {r: 1, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 10, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &2155830425113030331
+--- !u!114 &410693234621486352
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
