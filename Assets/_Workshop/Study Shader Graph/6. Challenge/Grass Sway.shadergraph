@@ -482,8 +482,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.00011682510375976563,
-            "y": 790.9999389648438
+            "x": -0.0001201629638671875,
+            "y": 1132.0
         },
         "m_Blocks": [
             {
@@ -584,10 +584,10 @@
     "promotedFromAssetID": "",
     "promotedFromCategoryName": "",
     "promotedOrdering": -1,
-    "m_Name": "WaveSpeed",
+    "m_Name": "SwaySpeed",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "WaveSpeed",
-    "m_DefaultReferenceName": "_WaveSpeed",
+    "m_RefNameGeneratedByDisplayName": "SwaySpeed",
+    "m_DefaultReferenceName": "_SwaySpeed",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -955,10 +955,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -728.0001220703125,
-            "y": 1507.9998779296875,
-            "width": 117.0,
-            "height": 34.0001220703125
+            "x": -493.0000305175781,
+            "y": 1132.0,
+            "width": 116.99990844726563,
+            "height": 33.9998779296875
         }
     },
     "m_Slots": [
@@ -1211,10 +1211,10 @@
     "promotedFromAssetID": "",
     "promotedFromCategoryName": "",
     "promotedOrdering": -1,
-    "m_Name": "WaveFrequency",
+    "m_Name": "SwayStrength",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "WaveFrequency",
-    "m_DefaultReferenceName": "_WaveFrequency",
+    "m_RefNameGeneratedByDisplayName": "SwayStrength",
+    "m_DefaultReferenceName": "_SwayStrength",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1226,12 +1226,12 @@
     "m_Hidden": false,
     "m_PerRendererData": false,
     "m_customAttributes": [],
-    "m_Value": 0.5,
-    "m_FloatType": 0,
+    "m_Value": 0.10000000149011612,
+    "m_FloatType": 1,
     "m_LiteralFloatMode": false,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 1.0
+        "y": 0.5
     },
     "m_SliderType": 0,
     "m_SliderPower": 3.0,
@@ -1412,7 +1412,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "533c23f2b4ea45a983b5460d28b59637",
     "m_Id": 0,
-    "m_DisplayName": "WaveSpeed",
+    "m_DisplayName": "SwaySpeed",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1812,9 +1812,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2791.0,
-            "y": -459.99993896484377,
-            "width": 120.0,
+            "x": -2792.000244140625,
+            "y": -448.0000305175781,
+            "width": 120.000244140625,
             "height": 149.0
         }
     },
@@ -1970,7 +1970,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "7f3b32fe3a224c2fa7d60146808e4008",
     "m_Id": 0,
-    "m_DisplayName": "WaveFrequency",
+    "m_DisplayName": "SwayStrength",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1993,10 +1993,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3064.999755859375,
-            "y": -459.99993896484377,
-            "width": 207.999755859375,
-            "height": 313.9999694824219
+            "x": -3035.000244140625,
+            "y": -448.00006103515627,
+            "width": 208.0,
+            "height": 314.0000305175781
         }
     },
     "m_Slots": [
@@ -2815,10 +2815,10 @@
     "promotedFromAssetID": "",
     "promotedFromCategoryName": "",
     "promotedOrdering": -1,
-    "m_Name": "WaveAmplitude",
+    "m_Name": "Stiffness",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "WaveAmplitude",
-    "m_DefaultReferenceName": "_WaveAmplitude",
+    "m_RefNameGeneratedByDisplayName": "Stiffness",
+    "m_DefaultReferenceName": "_Stiffness",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2830,8 +2830,8 @@
     "m_Hidden": false,
     "m_PerRendererData": false,
     "m_customAttributes": [],
-    "m_Value": 0.5,
-    "m_FloatType": 0,
+    "m_Value": 0.10000000149011612,
+    "m_FloatType": 1,
     "m_LiteralFloatMode": false,
     "m_RangeValues": {
         "x": 0.0,
@@ -2920,7 +2920,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "ce8f2b02a03744c49789a7406641dfdd",
     "m_Id": 0,
-    "m_DisplayName": "WaveAmplitude",
+    "m_DisplayName": "Stiffness",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2943,10 +2943,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -561.0001220703125,
-            "y": 1507.9998779296875,
-            "width": 183.00009155273438,
-            "height": 249.0
+            "x": -326.0000915527344,
+            "y": 1132.0,
+            "width": 183.0,
+            "height": 248.9998779296875
         }
     },
     "m_Slots": [

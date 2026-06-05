@@ -41,9 +41,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _WaveAmplitude: 0.2
+    - _Stiffness: 1
+    - _Strength: 0.1
+    - _SwayIntensity: 1
+    - _SwaySmoothness: 0.1
+    - _SwaySpeed: 5
+    - _SwayStrength: 0.1
+    - _WaveAmplitude: 0.1
     - _WaveFrequency: 0.1
     - _WaveSpeed: 10
+    - _WindSpeed: 1
+    - _WindStrength: 1
     m_Colors:
     - White: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
